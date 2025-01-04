@@ -93,7 +93,7 @@ Clone o repositório:
 
 Veja a imagem abaixo:
 
-![Descrição da imagem](![WhatsApp Image 2024-12-20 at 08 54 30](https://github.com/user-attachments/assets/061bd1b8-e2b6-4b0d-b49d-4d33d20d21b2)
+![Tela home do aplicativo](![WhatsApp Image 2024-12-20 at 08 54 30](https://github.com/user-attachments/assets/061bd1b8-e2b6-4b0d-b49d-4d33d20d21b2)
 )
 
 
