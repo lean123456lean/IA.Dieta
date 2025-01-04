@@ -13,97 +13,12 @@ TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScr
 Jest: Framework de testes para garantir a qualidade do código.
 Zod: Biblioteca de validação de esquemas de dados.
 Instalação
-Clone o repositório:
 
-bash
-Copiar código
-git clone https://github.com/lean123456lean/IA.Dieta.git
-Navegue até a pasta do frontend (React Native):
 
-bash
-Copiar código
-cd IA.Dieta/mobile
-Instale as dependências:
-
-bash
-Copiar código
-npm install
-Se você não tiver o Expo instalado, instale-o globalmente:
-
-bash
-Copiar código
-npm install -g expo-cli
-Para rodar o aplicativo, use o seguinte comando:
-
-bash
-Copiar código
-expo start
-Isso irá iniciar o aplicativo no emulador ou dispositivo físico com o Expo.
-
-Scripts
-start
+npx expo start
 Inicia o projeto no modo de desenvolvimento, permitindo que você visualize o aplicativo em tempo real:
 
-bash
-Copiar código
-npm start
-android
-Inicia o aplicativo no emulador ou dispositivo Android:
 
-bash
-Copiar código
-npm run android
-ios
-Inicia o aplicativo no emulador ou dispositivo iOS (requer um ambiente de desenvolvimento iOS):
-
-bash
-Copiar código
-npm run ios
-web
-Inicia o aplicativo para a web:
-
-bash
-Copiar código
-npm run web
-reset-project
-Restaura o projeto, útil quando há problemas com dependências ou configurações:
-
-bash
-Copiar código
-npm run reset-project
-test
-Roda os testes do projeto (usando Jest):
-
-bash
-Copiar código
-npm run test
-lint
-Verifica a qualidade do código e segue as convenções de estilo:
-
-bash
-Copiar código
-npm run lint
-Estrutura do Projeto
-go
-Copiar código
-mobile/
-├── app/
-│   ├── components/
-│   ├── constants/
-│   ├── screens/
-│   ├── services/
-│   └── assets/
-├── scripts/
-│   └── reset-project.js
-├── .gitignore
-├── app.json
-├── package.json
-└── tsconfig.json
-app/components/: Contém componentes reutilizáveis do React Native, como botões, campos de texto e cabeçalhos.
-app/screens/: Contém as telas principais do aplicativo, como Tela Inicial, Tela de Resultados de Dieta, etc.
-app/services/: Contém serviços de comunicação com o backend, gerenciamento de estado e outras lógicas de negócios.
-app/assets/: Contém recursos de mídia, como imagens e fontes usadas no aplicativo.
-scripts/: Contém scripts de utilidades, como o script reset-project.js para resetar o projeto.
 Dependências
 @expo/vector-icons: Conjunto de ícones vetoriais para o aplicativo.
 @hookform/resolvers: Para integração do React Hook Form com validações.
@@ -132,8 +47,7 @@ Dev Dependencies
 jest: Framework de testes para garantir a qualidade do código.
 jest-expo: Pré-configuração do Jest para uso com Expo.
 typescript: Para adicionar tipagem ao JavaScript.
-Contribuindo
-Sinta-se à vontade para contribuir para o projeto. Para começar, faça um fork do repositório, crie uma branch para suas alterações e submeta um Pull Request.
+
 
 
 
@@ -173,54 +87,6 @@ tsx: Para executar e compilar arquivos TypeScript diretamente.
 Instalação
 Clone o repositório:
 
-bash
-Copiar código
-git clone https://github.com/lean123456lean/IA.Dieta.git
-Navegue até a pasta do backend:
-
-bash
-Copiar código
-cd IA.Dieta/backend
-Instale as dependências:
-
-bash
-Copiar código
-npm install
-Scripts
-dev
-Executa o servidor em modo de desenvolvimento, monitorando as alterações em tempo real:
-
-bash
-Copiar código
-npm run dev
-Isso irá iniciar o servidor Fastify em modo de desenvolvimento, recompilando o código TypeScript sempre que houver modificações nos arquivos.
-
-Estrutura do Projeto
-css
-Copiar código
-backend/
-├── src/
-│   ├── controllers/
-│   ├── routes.ts
-│   ├── server.ts
-│   └── services/
-├── .gitignore
-├── package.json
-└── tsconfig.json
-src/controllers/: Contém os arquivos responsáveis pela lógica de controle das rotas.
-src/routes.ts: Define as rotas da API.
-src/server.ts: Inicia o servidor Fastify e configura o ambiente.
-src/services/: Contém a lógica de serviços, como integração com a IA generativa do Google.
-Dependências
-@fastify/cors: Middleware para lidar com CORS.
-@google/generative-ai: Biblioteca para integrar a IA generativa do Google.
-cors: Outro pacote CORS como alternativa.
-dotenv: Para carregamento de variáveis de ambiente a partir de arquivos .env.
-fastify: Framework web.
-tsx: Utilitário para rodar arquivos TypeScript diretamente.
-Contribuindo
-Sinta-se à vontade para contribuir para o projeto. Para começar, faça um fork do repositório, crie uma branch para suas alterações e submeta um Pull Request.
-
 
 
 # Demonstração do Aplicativo
@@ -233,7 +99,9 @@ Veja a imagem abaixo:
 
 
 IA.Dieta - backend
-Este é o frontend da aplicação IA.Dieta, desenvolvido com React Native para dispositivos móveis. Ele interage com o backend para fornecer uma interface de usuário interativa para a gestão de dieta e nutrição.
+Este é o  backend  da aplicação IA.Dieta, desenvolvido com React Native para dispositivos móveis. Ele interage com o backend para fornecer uma interface de usuário interativa para a gestão de dieta e nutrição.
+
+para iniciar o backend npm start
 
 Tecnologias Utilizadas
 React Native: Framework para criar aplicativos móveis nativos.
@@ -241,58 +109,8 @@ React Navigation: Biblioteca para gerenciar navegação no app.
 Axios: Para realizar requisições HTTP ao backend.
 TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript.
 Expo: Plataforma e conjunto de ferramentas para React Native.
-Instalação
-Clone o repositório:
+Instalação.
 
-bash
-Copiar código
-git clone https://github.com/lean123456lean/IA.Dieta.git
-Navegue até a pasta do frontend (React Native):
-
-bash
-Copiar código
-cd IA.Dieta/mobile
-Instale as dependências:
-
-bash
-Copiar código
-npm install
-Se você não tiver o Expo instalado, instale-o globalmente:
-
-bash
-Copiar código
-npm install -g expo-cli
-Para rodar o aplicativo, use o seguinte comando:
-
-bash
-Copiar código
-expo start
-Isso irá iniciar o aplicativo no emulador ou dispositivo físico com o Expo.
-
-Estrutura do Projeto
-go
-Copiar código
-mobile/
-├── app/
-│   ├── components/
-│   ├── constants/
-│   ├── screens/
-│   ├── services/
-│   └── assets/
-├── .gitignore
-├── app.json
-└── package.json
-app/components/: Contém componentes reutilizáveis do React Native, como botões, campos de texto e cabeçalhos.
-app/screens/: Contém as telas principais do aplicativo.
-app/services/: Contém serviços para comunicação com o backend e outras funcionalidades.
-app/assets/: Contém os recursos de mídia (imagens, fontes, etc.) usados no aplicativo.
-Dependências
-react-native: Framework para desenvolvimento de apps móveis nativos.
-react-navigation: Biblioteca para navegação no React Native.
-axios: Para realizar requisições HTTP.
-expo: Plataforma para desenvolvimento e distribuição de apps React Native.
-
-typescript: Para adicionar tipagem estática ao projeto.
 
 Contribuindo
 Sinta-se à vontade para contribuir para o projeto. Para começar, faça um fork do repositório, crie uma branch para suas alterações e submeta um Pull Request.
