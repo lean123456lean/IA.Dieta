@@ -98,7 +98,7 @@ Veja a imagem abaixo:
 
 
 
-IA.Dieta - backend
+IA.Dieta - 
 Este é o  backend  da aplicação IA.Dieta, desenvolvido com React Native para dispositivos móveis. Ele interage com o backend para fornecer uma interface de usuário interativa para a gestão de dieta e nutrição.
 
 para iniciar o backend npm start
