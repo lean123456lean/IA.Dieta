@@ -1,4 +1,141 @@
-IA.Dieta NutriFácil AI, que está conectado à IA do Google Gemini, tem como objetivo fornecer sugestões personalizadas de dieta e prática esportiva com base nos dados fornecidos pelos usuários. Aqui está um resumo detalhado do que ele faz:
+IA.Dieta NutriFácil AI, que está conectado à IA do Google Gemini, tem como objetivo fornecer sugestões personalizadas de dieta com base nos dados fornecidos pelos usuários. Aqui está um resumo detalhado do que ele faz:
+
+IA.Dieta - Frontend (Mobile)
+Este é o frontend da aplicação IA.Dieta, desenvolvido com React Native usando Expo, que serve como a interface para interação com o backend, fornecendo recursos como o cálculo de dietas e acompanhamento de saúde.
+
+Tecnologias Utilizadas
+React Native: Framework para desenvolvimento de aplicativos móveis nativos.
+Expo: Plataforma e conjunto de ferramentas para React Native, simplificando o processo de desenvolvimento.
+React Navigation: Biblioteca para navegação no app.
+Axios: Para realizar requisições HTTP ao backend.
+React Query: Para gerenciamento e cache de dados de APIs.
+TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+Jest: Framework de testes para garantir a qualidade do código.
+Zod: Biblioteca de validação de esquemas de dados.
+Instalação
+Clone o repositório:
+
+bash
+Copiar código
+git clone https://github.com/lean123456lean/IA.Dieta.git
+Navegue até a pasta do frontend (React Native):
+
+bash
+Copiar código
+cd IA.Dieta/mobile
+Instale as dependências:
+
+bash
+Copiar código
+npm install
+Se você não tiver o Expo instalado, instale-o globalmente:
+
+bash
+Copiar código
+npm install -g expo-cli
+Para rodar o aplicativo, use o seguinte comando:
+
+bash
+Copiar código
+expo start
+Isso irá iniciar o aplicativo no emulador ou dispositivo físico com o Expo.
+
+Scripts
+start
+Inicia o projeto no modo de desenvolvimento, permitindo que você visualize o aplicativo em tempo real:
+
+bash
+Copiar código
+npm start
+android
+Inicia o aplicativo no emulador ou dispositivo Android:
+
+bash
+Copiar código
+npm run android
+ios
+Inicia o aplicativo no emulador ou dispositivo iOS (requer um ambiente de desenvolvimento iOS):
+
+bash
+Copiar código
+npm run ios
+web
+Inicia o aplicativo para a web:
+
+bash
+Copiar código
+npm run web
+reset-project
+Restaura o projeto, útil quando há problemas com dependências ou configurações:
+
+bash
+Copiar código
+npm run reset-project
+test
+Roda os testes do projeto (usando Jest):
+
+bash
+Copiar código
+npm run test
+lint
+Verifica a qualidade do código e segue as convenções de estilo:
+
+bash
+Copiar código
+npm run lint
+Estrutura do Projeto
+go
+Copiar código
+mobile/
+├── app/
+│   ├── components/
+│   ├── constants/
+│   ├── screens/
+│   ├── services/
+│   └── assets/
+├── scripts/
+│   └── reset-project.js
+├── .gitignore
+├── app.json
+├── package.json
+└── tsconfig.json
+app/components/: Contém componentes reutilizáveis do React Native, como botões, campos de texto e cabeçalhos.
+app/screens/: Contém as telas principais do aplicativo, como Tela Inicial, Tela de Resultados de Dieta, etc.
+app/services/: Contém serviços de comunicação com o backend, gerenciamento de estado e outras lógicas de negócios.
+app/assets/: Contém recursos de mídia, como imagens e fontes usadas no aplicativo.
+scripts/: Contém scripts de utilidades, como o script reset-project.js para resetar o projeto.
+Dependências
+@expo/vector-icons: Conjunto de ícones vetoriais para o aplicativo.
+@hookform/resolvers: Para integração do React Hook Form com validações.
+@react-navigation/native: Biblioteca de navegação entre telas no React Native.
+@tanstack/react-query: Para gerenciamento e cache de dados de APIs.
+axios: Para realizar requisições HTTP ao backend.
+expo: Plataforma para desenvolvimento de aplicativos móveis React Native.
+expo-constants: Para acessar constantes relacionadas ao ambiente de execução do Expo.
+expo-font: Para carregar fontes no aplicativo.
+expo-linking: Para lidar com links no Expo.
+expo-router: Para roteamento no Expo.
+expo-splash-screen: Para controlar a tela de carregamento do aplicativo.
+expo-status-bar: Para configurar a barra de status do dispositivo.
+react: Biblioteca para a construção de interfaces de usuário.
+react-native: Biblioteca para criar interfaces nativas para iOS e Android.
+react-native-gesture-handler: Para tratar gestos no React Native.
+react-native-reanimated: Biblioteca para animações fluidas.
+react-native-safe-area-context: Para garantir que o conteúdo não seja sobreposto por barras de status ou outras áreas do dispositivo.
+react-native-screens: Para otimizar o desempenho das telas.
+react-native-web: Para suportar a execução do aplicativo em um navegador da web.
+zod: Para validação de dados de entrada de forma declarativa.
+zustand: Para gerenciamento de estado do aplicativo.
+Dev Dependencies
+@babel/core: Core do Babel para transpilação de código JavaScript.
+@react-native-community/cli: CLI para interação com o React Native.
+jest: Framework de testes para garantir a qualidade do código.
+jest-expo: Pré-configuração do Jest para uso com Expo.
+typescript: Para adicionar tipagem ao JavaScript.
+Contribuindo
+Sinta-se à vontade para contribuir para o projeto. Para começar, faça um fork do repositório, crie uma branch para suas alterações e submeta um Pull Request.
+
+
 
 Funcionalidades principais:
 Entrada de Dados pelo Usuário:
@@ -84,10 +221,18 @@ tsx: Utilitário para rodar arquivos TypeScript diretamente.
 Contribuindo
 Sinta-se à vontade para contribuir para o projeto. Para começar, faça um fork do repositório, crie uma branch para suas alterações e submeta um Pull Request.
 
-Frontend - IA.Dieta (React Native)
-Agora, para o frontend, podemos criar uma documentação similar, com informações sobre a instalação e configuração para o seu aplicativo React Native.
 
-IA.Dieta - Frontend
+
+# Demonstração do Aplicativo
+
+Veja a imagem abaixo:
+
+![Descrição da imagem](![WhatsApp Image 2024-12-20 at 08 54 30](https://github.com/user-attachments/assets/061bd1b8-e2b6-4b0d-b49d-4d33d20d21b2)
+)
+
+
+
+IA.Dieta - backend
 Este é o frontend da aplicação IA.Dieta, desenvolvido com React Native para dispositivos móveis. Ele interage com o backend para fornecer uma interface de usuário interativa para a gestão de dieta e nutrição.
 
 Tecnologias Utilizadas
@@ -159,9 +304,4 @@ Confira a demonstração do aplicativo no YouTube:
 
 [Assista ao vídeo de demonstração](https://youtube.com/shorts/fQj85F_d2QI?feature=share)
 
-# Demonstração do Aplicativo
 
-Veja a imagem abaixo:
-
-![Descrição da imagem](![WhatsApp Image 2024-12-20 at 08 54 30](https://github.com/user-attachments/assets/061bd1b8-e2b6-4b0d-b49d-4d33d20d21b2)
-)
